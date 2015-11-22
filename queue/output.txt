@@ -1,0 +1,17 @@
+IsEmpty(Q):1  IsFull(Q):0  Q->capacity:7  Q->front:0  Q->rear:0  Q->size:0
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:0  Q->rear:1  Q->size:1
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:0  Q->rear:2  Q->size:2
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:0  Q->rear:3  Q->size:3
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:0  Q->rear:4  Q->size:4
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:0  Q->rear:5  Q->size:5
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:0  Q->rear:6  Q->size:6
+IsEmpty(Q):0  IsFull(Q):1  Q->capacity:7  Q->front:0  Q->rear:0  Q->size:7
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:1  Q->rear:0  Q->size:6
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:2  Q->rear:0  Q->size:5
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:3  Q->rear:0  Q->size:4
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:4  Q->rear:0  Q->size:3
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:5  Q->rear:0  Q->size:2
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:5  Q->rear:1  Q->size:3
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:5  Q->rear:2  Q->size:4
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:5  Q->rear:3  Q->size:5
+IsEmpty(Q):0  IsFull(Q):0  Q->capacity:7  Q->front:5  Q->rear:4  Q->size:6
