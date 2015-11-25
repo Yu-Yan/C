@@ -1,0 +1,30 @@
+---PrintHashTable---
+0: 
+1: 
+2: 
+3: 
+4: 
+5: 
+6: 
+---PrintHashTable(end)---
+
+---PrintHashTable---
+0: face.,oo - fa88bkoo - 
+1: face112koo - facebkpp - f2ebkoo - fac323koo - fac323koooooo9999 - 
+2: 
+3: facebASDQWEo - orange - world hello - hello world - 
+4: facQWQWkoo - facemmoo - crossfire - 
+5: facebklo - fatrtbkoo - fa1212bkoo - fawerbkoo - 
+6: facsdfook - 
+---PrintHashTable(end)---
+
+---PrintHashTable---
+0: face.,oo - fa88bkoo - 
+1: face112koo - facebkpp - f2ebkoo - fac323koo - 
+2: 
+3: facebASDQWEo - orange - world hello - hello world - 
+4: facQWQWkoo - facemmoo - crossfire - 
+5: facebklo - fatrtbkoo - fa1212bkoo - fawerbkoo - 
+6: facsdfook - 
+---PrintHashTable(end)---
+
