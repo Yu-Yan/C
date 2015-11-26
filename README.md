@@ -1,5 +1,5 @@
 # C
-data structure, algorithm, c/c++
+data structure, algorithm, C/C++
 
 - linked list
 - queue
