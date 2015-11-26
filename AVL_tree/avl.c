@@ -160,9 +160,9 @@ int Height(Tree T)
 void PrintT(FILE *fp, Tree T)
 {
 	if (T == NULL)
-		fprintf(fp, "L(%s)   ", "NULL");
+		fprintf(fp, "(%s)   ", "NULL");
 	else
-		fprintf(fp, "R(%d)   ", T->element);
+		fprintf(fp, "(%d)   ", T->element);
 }
 
 void PrintTr(FILE *fp, Tree T)
@@ -171,7 +171,7 @@ void PrintTr(FILE *fp, Tree T)
 	{
 		return;
 	}
-	fprintf(fp, "%-10d", T->element); PrintT(fp, T->left); PrintT(fp, T->right); fprintf(fp, "\n");
+	fprintf(fp, "%-10d", T->element); fprintf(fp, "L"); PrintT(fp, T->left); fprintf(fp, "R"); PrintT(fp, T->right); fprintf(fp, "\n");
 	PrintTr(fp, T->left);
 	PrintTr(fp, T->right);
 }
