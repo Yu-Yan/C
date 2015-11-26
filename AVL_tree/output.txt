@@ -1,0 +1,77 @@
+PrintTree:
+0         L(NULL)   L(NULL)   
+
+
+PrintTree:
+18467     R(41)   R(26500)   
+41        R(0)   R(6334)   
+0         L(NULL)   L(NULL)   
+6334      L(NULL)   L(NULL)   
+26500     R(19169)   L(NULL)   
+19169     L(NULL)   L(NULL)   
+
+
+PrintTree:
+18467     R(41)   R(26500)   
+41        R(0)   R(6334)   
+0         L(NULL)   L(NULL)   
+6334      R(100)   L(NULL)   
+100       L(NULL)   L(NULL)   
+26500     R(19169)   L(NULL)   
+19169     L(NULL)   L(NULL)   
+
+
+PrintTree:
+18467     R(41)   R(26500)   
+41        R(0)   R(110)   
+0         L(NULL)   L(NULL)   
+110       R(100)   R(6334)   
+100       L(NULL)   L(NULL)   
+6334      L(NULL)   L(NULL)   
+26500     R(19169)   L(NULL)   
+19169     L(NULL)   L(NULL)   
+
+
+PrintTree:
+18467     R(110)   R(26500)   
+110       R(41)   R(6334)   
+41        R(0)   R(100)   
+0         L(NULL)   L(NULL)   
+100       L(NULL)   L(NULL)   
+6334      R(120)   L(NULL)   
+120       L(NULL)   L(NULL)   
+26500     R(19169)   L(NULL)   
+19169     L(NULL)   L(NULL)   
+
+
+PrintTree:
+18467     R(110)   R(26500)   
+110       R(100)   R(6334)   
+100       R(0)   L(NULL)   
+0         L(NULL)   L(NULL)   
+6334      R(120)   L(NULL)   
+120       L(NULL)   L(NULL)   
+26500     R(19169)   L(NULL)   
+19169     L(NULL)   L(NULL)   
+
+
+PrintTree:
+6334      R(110)   R(18467)   
+110       R(100)   R(120)   
+100       R(0)   L(NULL)   
+0         L(NULL)   L(NULL)   
+120       L(NULL)   L(NULL)   
+18467     L(NULL)   R(19169)   
+19169     L(NULL)   L(NULL)   
+
+
+PrintTree:
+6334      R(110)   R(18467)   
+110       R(100)   R(120)   
+100       R(0)   L(NULL)   
+0         L(NULL)   L(NULL)   
+120       L(NULL)   L(NULL)   
+18467     L(NULL)   R(19169)   
+19169     L(NULL)   L(NULL)   
+
+
