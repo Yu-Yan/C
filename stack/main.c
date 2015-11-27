@@ -22,5 +22,6 @@ int main(void)
 	fprintf(f, "\nIsEmpty(): %d", IsEmpty(S));
 	MakeEmpty(S);
 	fprintf(f, "\nIsEmpty(): %d", IsEmpty(S));
+	fclose(f);
 	return 0;
 }

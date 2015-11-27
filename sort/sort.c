@@ -39,6 +39,7 @@ void PrintArray(int *A, int N)
 	for (b = 0; b < N; b++)
 		fprintf(fp, "%d ", A[b]);
 	fprintf(fp, "\n\n");
+	fclose(fp);
 }
 
 void InsertSort(int A[], int N)

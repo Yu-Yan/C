@@ -26,5 +26,6 @@ int main(void)
 	Insert(20001, T);
 	T = Delete(20000, T);
 	PrintTree(f, T);
+	fclose(f);
 	return 0;
 }

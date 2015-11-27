@@ -18,5 +18,6 @@ int main(void)
 		fprintf(f, "%d ",DeleteMin(H));
 	MakeEmpty(H);
 	fprintf(f, "\nIsEmpty(H):%d  IsFull(H):%d\n", IsEmpty(H), IsFull(H));
+	fclose(f);
 	return 0;
 }

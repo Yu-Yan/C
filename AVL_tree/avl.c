@@ -96,10 +96,10 @@ Tree Delete(int x, Tree T)
 		T->height = (Height(T->left) > Height(T->right) ? Height(T->left) : Height(T->right)) + 1;
 		if (Height(T->left) - Height(T->right) == -2)
 		{
-			if (T->left->right == NULL)
-				T = SingleRotateLeft(T);
+			if (T->right->right)
+				T = SingleRotateRight(T);
 			else
-				T = DoubleRotateLeft(T);
+				T = DoubleRotateRight(T);
 		}
 	}
 	else if (x > T->element)
@@ -108,11 +108,12 @@ Tree Delete(int x, Tree T)
 		T->height = (Height(T->left) > Height(T->right) ? Height(T->left) : Height(T->right)) + 1;
 		if (Height(T->left) - Height(T->right) == 2)
 		{
-			if (T->left->right == NULL)
+			if (T->left->left)
 				T = SingleRotateLeft(T);
 			else
 				T = DoubleRotateLeft(T);
 		}
+			T = SingleRotateLeft(T);
 	}
 	else if (x == T->element)
 	{
@@ -126,12 +127,7 @@ Tree Delete(int x, Tree T)
 			T->right = Delete(tmp->element, T->right);
 			T->height = (Height(T->left) > Height(T->right) ? Height(T->left) : Height(T->right)) + 1;
 			if (Height(T->left) - Height(T->right) == 2)
-			{
-				if (T->left->right == NULL)
-					T = SingleRotateLeft(T);
-				else
-					T = DoubleRotateLeft(T);
-			}
+				T = SingleRotateLeft(T);
 		}
 		else if (T->left == NULL)
 		{

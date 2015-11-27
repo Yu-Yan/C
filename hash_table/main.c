@@ -57,4 +57,5 @@ void PrintHashTable(HashTable T)
 		a++;
 	}
 	fprintf(f, "\n---PrintHashTable(end)---\n\n");
+	fclose(f);
 }

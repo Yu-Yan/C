@@ -29,5 +29,6 @@ int main(void)
 		fprintf(f, "IsEmpty(Q):%d  IsFull(Q):%d  Q->capacity:%d  Q->front:%d  Q->rear:%d  Q->size:%d\n", 
 		IsEmpty(Q), IsFull(Q), Q->capacity, Q->front, Q->rear, Q->size);
 	}
+	fclose(fp);
 	return 0;
 }
