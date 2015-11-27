@@ -113,7 +113,6 @@ Tree Delete(int x, Tree T)
 			else
 				T = DoubleRotateLeft(T);
 		}
-			T = SingleRotateLeft(T);
 	}
 	else if (x == T->element)
 	{
